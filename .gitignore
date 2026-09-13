@@ -1,0 +1,37 @@
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# IDE / editors
+.idea/
+.vscode/
+*.iml
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local data / logs
+data/
+volumes/
+kafka-data/
+*.log
+
+# NiFi runtime state (kept in Docker volumes, never committed)
+nifi/conf/
+nifi/state/
+nifi/logs/
+nifi/database_repository/
+nifi/flowfile_repository/
+nifi/content_repository/
+nifi/provenance_repository/
+flow.json.gz
+flow.xml.gz

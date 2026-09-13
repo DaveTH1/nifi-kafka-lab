@@ -1,0 +1,8 @@
+service,team,tier,slack_channel,runbook
+checkout-api,payments,1,#lab-payments,https://runbooks.example.com/checkout-api
+inventory-svc,fulfilment,2,#lab-fulfilment,https://runbooks.example.com/inventory-svc
+user-api,identity,1,#lab-identity,https://runbooks.example.com/user-api
+edge-gateway,platform,1,#lab-platform,https://runbooks.example.com/edge-gateway
+search-svc,discovery,3,#lab-discovery,https://runbooks.example.com/search-svc
+billing-worker,payments,2,#lab-payments,https://runbooks.example.com/billing-worker
+notify-svc,platform,3,#lab-platform,https://runbooks.example.com/notify-svc
