@@ -4,7 +4,7 @@
 Publishes JSON application logs to the Kafka topic ``logs.raw``.
 
 Every value produced here is fabricated. There is no connection to any real
-system, cluster, tenant or person. See SCHEMA.md for the field contract.
+system, cluster, tenant or person. See README.md for the field contract.
 """
 
 import argparse
